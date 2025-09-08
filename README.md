@@ -28,6 +28,9 @@ data_engineering/
 ## Get started
 
 1. **Clone the repository**
+   ```bash
+   git clone https://github.com/narendransp/etl.git
+   ```
 2. **Install dependencies:**
    ```bash
    pip install pandas duckdb
@@ -56,17 +59,6 @@ data_engineering/
 
 ![Star Schema](./Star_schema.jpg)
 
-## How to Run the Pipeline
-
-1. **Clone the repository**
-2. **Install dependencies:**
-   ```bash
-   pip install pandas duckdb
-   ```
-3. **Run the ETL pipeline:**
-   ```bash
-   python etl_pipeline.py
-   ```
 
 ## Running SQL Queries
 
