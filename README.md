@@ -46,7 +46,7 @@ data_engineering/
    ```
 4. **Execute analytics:**
    ```bash
-   python duckdb_analysis.py
+   python duckdb_execute.py
    ```
 
 ---
