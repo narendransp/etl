@@ -4,7 +4,7 @@ This project demonstrates a simple **ETL pipeline** and **data warehouse schema 
 It extracts raw CSV files, cleans & transforms the data, builds a **Star Schema**, and saves the results as new CSVs for SQL analytics.  
 
 ## Project Structure
-
+```
 data_engineering/
 ├── etl_pipeline.py # Main ETL & SQL execution script
 ├── duckdb_execute.py # Main ETL & SQL execution script
@@ -24,7 +24,7 @@ data_engineering/
 │ └── revenue_by_city.sql
 ├── sql_outputs/ # Generated SQL query outputs (created automatically)
 └── README.md # Project documentation
-
+```
 ## Get started
 
 1. **Clone the repository**
@@ -89,12 +89,14 @@ Execute them with DuckDB in Python:
 
 ## Example Query Outputs
 Best-Selling Category
+```
 category	total_units_sold	total_revenue
 electronics	9.0	                4256.0
 
 Saved: sql_outputs/best_sell_cat_query1.csv
-
+```
 Revenue by City
+```
 city	        city_revenue
 Phoenix	        1200.0
 Philadelphia    1100.0
@@ -102,8 +104,11 @@ Los Angeles	    999.0
 Houston	        850.0
 Washington	    800.0
 
+```
+
 Saved: sql_outputs/city_revenue_query1.csv
 
+```
 Monthly Revenue
 year	month	monthly_revenue
 2021	2	    799.0
@@ -112,9 +117,14 @@ year	month	monthly_revenue
 2021	8	    850.0
 2021	9	    1200.0
 
+
+```
+
 Saved: sql_outputs/monthly_revenue_query1.csv
 
 Top Customers
+
+```
 customer_id	customer_name	total_spend
 5	        David Wilson	1200.0
 6	        Linda Martinez	1100.0
@@ -122,4 +132,5 @@ customer_id	customer_name	total_spend
 4	        Emily Davis	    850.0
 20	        Nancy Rodriguez	800.0
 
+```
 Saved: sql_outputs/top_customers_query1.csv
