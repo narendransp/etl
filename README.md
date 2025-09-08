@@ -25,52 +25,6 @@ data_engineering/
 ├── sql_outputs/ # Generated SQL query outputs (created automatically)
 └── README.md # Project documentation
 
-
-##  Star Schema Design
-
-The data is modeled in a **Star Schema** for easy analytical queries:
-
-```mermaid
-erDiagram
-    dim_customers {
-        int customer_id
-        string customer_name
-        string email
-        string city
-    }
-    dim_products {
-        int product_id
-        string product_name
-        string category
-        float price
-    }
-    dim_date {
-        int date_id
-        date full_date
-        int day
-        int month
-        string month_name
-        int quarter
-        int year
-        int weekday
-        string weekday_name
-        boolean is_weekend
-    }
-    fact_orders {
-        int order_id
-        int customer_id
-        int product_id
-        int date_id
-        int quantity
-        float total_amount
-    }
-
-    dim_customers ||--o{ fact_orders : "customer_id"
-    dim_products  ||--o{ fact_orders : "product_id"
-    dim_date      ||--o{ fact_orders : "date_id"
-
----
-
 ## Get started
 
 1. **Clone the repository**
