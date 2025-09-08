@@ -1,0 +1,21 @@
+product_id,name,category,price
+1,iPhone 13,Electronics,799
+2,MacBook Air,Electronics,999
+3,AirPods Pro,Electronics,249
+4,Samsung Galaxy S22,Electronics,850
+5,Dell XPS 13,Laptops,1200
+6,HP Spectre x360,Laptops,1100
+7,Nike Air Max,Sportswear,150
+8,Adidas Ultraboost,Sportswear,180
+9,Levi's Jeans,Fashion,60
+10,Ray-Ban Sunglasses,Fashion,120
+11,Sony WH-1000XM4,Electronics,350
+12,Apple Watch Series 7,Wearables,399
+13,Fitbit Charge 5,Wearables,180
+14,Coffee Maker,Home Appliances,85
+15,Microwave Oven,Home Appliances,200
+16,Vacuum Cleaner,Home Appliances,250
+17,Kindle Paperwhite,Electronics,130
+18,GoPro Hero 10,Electronics,500
+19,Camping Tent,Outdoors,220
+20,Mountain Bike,Outdoors,800

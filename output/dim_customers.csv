@@ -1,0 +1,21 @@
+customer_id,customer_name,email,city,signup_date
+1,John Smith,john.smith@example.com,New York,2021-01-15
+2,Sarah Johnson,sarah.johnson@example.com,Los Angeles,2021-03-10
+3,Michael Brown,michael.brown@example.com,Chicago,2021-05-22
+4,Emily Davis,emily.davis@example.com,Houston,2021-07-30
+5,David Wilson,david.wilson@example.com,Phoenix,2021-09-05
+6,Linda Martinez,linda.martinez@example.com,Philadelphia,2021-11-12
+7,James Anderson,james.anderson@example.com,San Antonio,2022-01-08
+8,Patricia Thomas,patricia.thomas@example.com,San Diego,2022-03-14
+9,Robert Taylor,robert.taylor@example.com,Dallas,2022-05-20
+10,Jennifer Moore,jennifer.moore@example.com,San Jose,2022-07-01
+11,William Jackson,william.jackson@example.com,Austin,2022-08-11
+12,Mary White,mary.white@example.com,Jacksonville,2022-10-19
+13,Charles Harris,charles.harris@example.com,Fort Worth,2022-12-25
+14,Barbara Martin,barbara.martin@example.com,Columbus,2023-02-02
+15,Joseph Thompson,joseph.thompson@example.com,Charlotte,2023-03-18
+16,Elizabeth Garcia,elizabeth.garcia@example.com,San Francisco,2023-04-29
+17,Thomas Martinez,thomas.martinez@example.com,Indianapolis,2023-06-07
+18,Karen Robinson,karen.robinson@example.com,Seattle,2023-07-21
+19,Christopher Clark,christopher.clark@example.com,Denver,2023-09-02
+20,Nancy Rodriguez,nancy.rodriguez@example.com,Washington,2023-10-15
