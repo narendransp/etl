@@ -68,8 +68,7 @@ data_engineering/
    python etl_pipeline.py
    ```
 
-
-4. ## Running SQL Queries
+## Running SQL Queries
 
 {/*Top 5 customers by total spend*/}
 
@@ -84,7 +83,9 @@ ORDER BY total_spend DESC
 LIMIT 5;
 
 Execute them with DuckDB in Python:
+``` bash
   python duckdb_execute.py
+```
 
 
 ## Example Query Outputs
